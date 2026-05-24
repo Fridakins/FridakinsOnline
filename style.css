@@ -3,7 +3,7 @@
 /* GLOBAL STYLES (Page Defaults) */
 
 body {
-  background-color: #121212;
+  background-color: #000000;
   color: #ffffff;
   font-family: "Caudex", serif;
   padding: 0 40px;
@@ -60,9 +60,17 @@ nav a {
 }
 
 .card {
-  background-color: #1e1e1e; 
+  background-color: #0f0f0f; 
   padding: 20px;
   border-radius: 16px; 
   flex: 1;
   border: 1px solid #333333; 
+}
+
+/* MOBILE STYLE */
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
 }
