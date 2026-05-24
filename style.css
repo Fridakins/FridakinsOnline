@@ -67,10 +67,19 @@ nav a {
   border: 1px solid #333333; 
 }
 
-/* MOBILE STYLE */
+/* MOBILE VIEW */
 
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a {
+    margin: 0 10px; 
   }
 }
