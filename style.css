@@ -1,6 +1,6 @@
 /* COMMENT CODE */
 
-/* GLOBAL STYLES (Page Defaults) */
+/* Page Styles */
 
 body {
   background-color: #000000;
@@ -24,7 +24,7 @@ nav a {
   margin-left: 20px;
 }
 
-/* HERO SECTION & BUTTONS */
+/* Headline and navigation */
 
 .hero-buttons {
   margin-top: 20px;
@@ -51,7 +51,7 @@ nav a {
   border: 1px solid #ffffff;
 }
 
-/* MAIN CONTENT CARDS */
+/* Colums with their own story */
 
 .card-container {
   display: flex;
@@ -73,12 +73,10 @@ nav a {
   .card-container {
     flex-direction: column;
   }
-
   header {
     flex-direction: column;
     gap: 15px;
   }
-
   nav a {
     margin: 0 10px; 
   }
