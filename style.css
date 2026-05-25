@@ -100,6 +100,30 @@ footer a {
     color: rgb(236, 225, 211);
 }
 
+/* ARCHIVE JOURNAL BLOG UNDER CONSTRUCTION LANDING PAGE*/
+
+.construction {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 200px;
+}
+.construction-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* IMAGE DESING */
+
+section img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: -1;
+}
 
 /* MOBILE DESIGNS  MOBILE DESIGNS  MOBILE DESIGNS */
 
