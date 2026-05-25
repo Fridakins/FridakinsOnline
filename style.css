@@ -5,8 +5,11 @@
 body {
   background-color: #000000;
   color: #ffffff;
-  font-family: "Caudex", serif;
+  font-family: "Cutive Mono", monospace;
   padding: 0 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER & NAVIGATION */
@@ -16,15 +19,29 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  font-family: "Amatic SC", sans-serif;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 70px;
 }
 
 nav a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   margin-left: 20px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
 }
 
 /* Headline and navigation */
+
+.hero {
+    font-family: 'Special Elite', monospace;
+    font-size: 16px;
+}
 
 .hero-buttons {
   margin-top: 20px;
@@ -65,9 +82,37 @@ nav a {
   border-radius: 16px; 
   flex: 1;
   border: 1px solid #333333; 
+  font-family: 'Cutive Mono', monospace;
 }
 
-/* MOBILE VIEW */
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* FOOTER DESIGN */
+
+footer {
+    font-family: 'Xanh Mono', monospace;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: auto;
+}
+.copyright {
+    position: absolute; left: 0; bottom: 0;
+}
+footer a {
+    font-family: 'Xanh Mono', monospace;
+    text-decoration: none;
+    color: rgb(236, 225, 211);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* MOBILE DESIGNS */
 
 @media (max-width: 768px) {
   .card-container {
