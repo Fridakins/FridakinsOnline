@@ -150,4 +150,8 @@ section img {
     position: static;
     margin-top: 20px;
 }
+.construction {
+    font-size: 2rem;
+    padding: 15px;
+}
 }
