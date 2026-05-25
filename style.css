@@ -98,12 +98,10 @@ footer a {
     font-family: 'Xanh Mono', monospace;
     text-decoration: none;
     color: rgb(236, 225, 211);
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 
-/* MOBILE DESIGNS */
+/* MOBILE DESIGNS  MOBILE DESIGNS  MOBILE DESIGNS */
 
 @media (max-width: 768px) {
   .card-container {
