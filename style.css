@@ -230,4 +230,13 @@ body.blog-page {
     font-size: 2rem;
     padding: 15px;
 }
+.screen-container {
+    width: 90%;
+    left: 5%;
+    height: 80vh;
+    padding: 20px;
+}
+.blog-post {
+    padding: 10px 20px 30px 20px;
+}
 }
