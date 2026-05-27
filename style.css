@@ -175,16 +175,18 @@ body.blog-page {
     background-color: transparent;
 }
 .blog-link a {
-  color: inherit;
-  text-decoration: none;
-   transition: all 0.3s ease;
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 .blog-link a:hover {
     color: bisque;
 }
+
 /*  BLINKING CURSOR -- BLINKING CURSOR  */
+
 .cursor {
-  color: #ffffff;
+    color: #ffffff;
 }
 .blinking-cursor {
     display: inline-block;
