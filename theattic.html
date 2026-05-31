@@ -39,18 +39,22 @@
 
 <body>
 <header>
-     <h2><a href="index.html">Frida Chavez</a></h2>
+     <h2><a href="theattic.html">The ADHD Attic</a></h2>
     <nav>
-      <a href="projects.html">Projects</a>
-      <a href="skills.html">Skillset</a>
-      <a href="journey.html">The Coded Path - A saga</a>
-      <a href="contact.html">Contact Me</a>
+      <a href="blog.html">Blog</a>
+      <a href="journal.html" onclick="if(prompt('Password?') !== 'read journal') return false;">Journal</a>
+      <a href="archive.html">Archive</a>
     </nav>
 </header>
 
  <section id="home" class="hero">
-    <h1 class="cursor">A Digital Portfolio<span class="blinking-cursor">&nbsp;</span></h1>
-    <p>PLACEHOLDER TEXT</p>
+    <h1 class="cursor">A Digital Archive<span class="blinking-cursor">&nbsp;</span></h1>
+    <p>A way for me to catalog the various aspects of the once in a lifetime events that keep happening.</p>
+    
+    <div class="hero-buttons">
+      <a href="blog.html" class="button primary">Read Blog Posts &rarr;</a>
+      <a href="archive.html" class="button secondary">Browse Archive</a>
+    </div>
   </section>
 
   <section class="card-container">
@@ -63,7 +67,7 @@
     <div id="journal" class="card">
       <h2>Journal</h2>
       <p>Personal journal entries, thoughts, and reflections from the phases of my moons.</p>
-      <a href="journal.html">PLACEHOLDER &rarr;</a>
+<a href="journal.html" onclick="if(prompt('Password?') !== 'read journal') return false;">Read Journal &rarr;</a>
     </div>
 
     <div id="archive" class="card">
