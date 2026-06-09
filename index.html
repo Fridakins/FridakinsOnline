@@ -38,37 +38,75 @@
 </head>
 
 <body>
-<header>
-     <h2><a href="index.html">Frida </a></h2>
-    <nav>
-      <a href="projects.html">Projects</a>
-      <a href="index.html">Resume</a>
-      <a href="thecodedpath.html">The Coded Path - A saga</a>
+  <div class="top-banner">
 
-    </nav>
-</header>
+    <header>
+      <h2><a href="index.html">Frida </a></h2>
+    </header>
 
- <section id="home" class="hero">
-    <h1 class="cursor">A Digital Portfolio<span class="blinking-cursor">&nbsp;</span></h1>
-    <p>PLACEHOLDER TEXT</p>
-  </section>
+    <section id="home" class="hero">
+      <h1 class="cursor">A Digital Portfolio<span class="blinking-cursor">&nbsp;</span></h1>
+      <p>PLACEHOLDER TEXT</p>
+    </section>
+
+    <section id="home" class="hero">
+      <nav>
+        <p><a href="theattic.html"><b>The Attic - A collection <br> of various hobbies</b></a></p>
+        <a href="projects.html"><b>Projects</b></a>
+        <a href="index.html"><b>Resume</b></a>
+        <br>
+        <p><a href="thecodedpath.html"><b>The Coded Path - A saga</b></a></p>
+      </nav>
+    </section>
+  </div>
 
   <section class="card-container">
-    <div id="leftPanel" class="card">
-      <h2>Bio/Certifications/Socials</h2>
-      <p>FILE EXPLORER LAYOUT W/ INFO</p>
-    </div>
+    <div id="leftPanel" class="card"></div>
 
     <div id="topRight" class="card">
-      <h2>PROJECT SPACE</h2>
-      <p>Editor Group style</p>
-      <a href="projects.html">Look Around &rarr;</a>
+      <div class="project-columns">
+
+        <div class="project-box">
+          <b>PROJECT SPACE</b><br>
+          This directory contains full-stack applications showcasing my capabilities in UI design, AI API integrations, and database management.
+        </div>
+        <div class="project-box">
+          <b>PROJECT 1</b><br>
+          Tracks and categorizes monthly developer tool expenses, featuring budget alerts, a visual spend dashboard, and CSV exports [1].
+        </div>
+        <div class="project-box">
+          <b>PROJECT 2</b><br>
+          Converts dense notes into simple explanations, automatically generating study flashcards and quizzes using the OpenAI API [2].
+        </div>
+        <div class="project-box">
+          <b>PROJECT 3</b><br>
+          An AI-powered tool that reviews pasted code, providing actionable improvements, syntax highlighting, and an overall code quality score [3].
+        </div>
+        <div class="project-box">
+          <b>PROJECT 4</b><br>
+          A B2B SaaS tool allowing small businesses to generate and deploy mobile-friendly websites instantly using AI-generated copy [4].
+        </div>
+
+      </div>
     </div>
 
     <div id="bottomRight" class="card">
-      <h2>SKILLSET</h2>
-      <p>Technical Skills & work experience</p>
-      <a href="index.html">View Full Resume &rarr;</a>
+        <p>
+            PS C:\Users\frida> Get-Content .\skills.txt
+            >  <b>TECHNICAL SKILLS:</b>  [Active Directory], [Microsoft Entra ID], [DNS], [DHCP], [TCP/IP], [VPN], 
+            [Tier 1/Tier 2 Support], [SLA Compliance], [ITSM], [ITIL Foundations], [Windows/Linux Administration], 
+            [Operating System Installation], [Software Configuration], [ServiceNow], [Jira], [Spiceworks], [WordPress], 
+            [WooCommerce], [CRM tools], [POS Systems], [Google Analytics], [Hardware Troubleshooting], [Data Integrity], [Network Security]
+        </p>
+        <p> PS C:\Users\frida> Get-Content .\work_experience.log
+            ><b>WORK EXPERIENCE: </b></p>
+            <p>
+            [Iron Garden Designs & Co.]__________[IT-Enhanced Sales and E-Commerce Specialist]__________[05/2022 - Current]<br>
+            [Alliant Credit Union]_______________[Loan Processor]_______________________________________[10/2020 - 04/2022]<br>
+            [Landmark]___________________________[Operations Coordinator]_______________________________[09/2018 - 09/2019]<br>
+            [Financial Management Systems]_______[Borrower Services Executive Manager]__________________[05/2012 - 08/2018]
+        </p>
+        PS C:\Users\frida> Get-Content <a href="index.html">.\view_full_resume.pdf&#9608;</a>
     </div>
   </section>
 
